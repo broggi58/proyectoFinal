@@ -96,28 +96,3 @@ footer{
     height: 50px;
     grid-area: footer;
 }
-
-@media(min-width: 768px){
-    .bodyIndex{
-        display: grid;
-        grid-template-areas: 
-        "header nav"
-        "imagenIndex imagenIndex"
-        "divIndex divIndex"
-        "footer footer";
-        gap: 20px;
-    }
-}
-
-@media(min-width: 1024px){
-    .bodyIndex{
-        display: grid;
-        grid-template-areas: 
-        "header nav "
-        "divIndex imagenIndex "
-        "divIndex imagenIndex "
-        "footer footer ";
-        gap: 20px;
-}
-    
-}
