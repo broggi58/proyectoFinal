@@ -25,10 +25,21 @@ li{
     width: 20%;
    
 }
+
+@keyframes titulo{
+    0%{
+        opacity:0%;
+    }
+    100%{
+        opacity:100%;
+    }
+}
 h1{
     color: rgb(228, 17, 17);
     padding: 5%;
     margin-left: 10%;
+    animation-name: titulo;
+    animation-duration: 2s;
 }
 
 h2{
@@ -47,14 +58,20 @@ h3{
     padding: 5%;
     margin-left: 5%;
     width: 80%;
-
 }
 
 .clase-imagen{ 
-    width:50%;
     margin-left: 4%;
     border-radius:4px;
     padding: 5%;
+    height: 600px;
+    width: 700px;
+    transform: translate(100px,-50px);
+}
+
+.clase-imagen:hover{
+    height: 650px;
+    width: 750px;
 }
 
 .li-titulo{
@@ -67,7 +84,6 @@ h3{
 iframe{
     margin-left: 2cm;
 }
-
 
 input{
     margin-left: 4%;
@@ -82,7 +98,6 @@ button{
 }
 
 nav{
-    grid-area: nav; 
     background-color: wheat;
     height: 50px;
     width: 90%;
